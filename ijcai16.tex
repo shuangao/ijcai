@@ -1,0 +1,99 @@
+%%%% ijcai16.tex
+
+\typeout{IJCAI-16 Instructions for Authors}
+
+% These are the instructions for authors for IJCAI-16.
+% They are the same as the ones for IJCAI-11 with superficical wording
+%   changes only.
+
+\documentclass{article}
+% The file ijcai16.sty is the style file for IJCAI-16 (same as ijcai07.sty).
+\usepackage{ijcai16}
+
+% Use the postscript times font!
+\usepackage{times}
+\usepackage{graphicx}
+
+\usepackage{booktabs}
+\usepackage{subfig}
+%\usepackage{subfigure}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{algorithm}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{algorithmic}
+\usepackage{color,soul}
+\usepackage{epstopdf}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\newcommand{\algorithmicbreak}{\textbf{break}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+% the following package is optional:
+%\usepackage{latexsym} 
+
+% Following comment is from ijcai97-submit.tex:
+% The preparation of these files was supported by Schlumberger Palo Alto
+% Research, AT\&T Bell Laboratories, and Morgan Kaufmann Publishers.
+% Shirley Jowell, of Morgan Kaufmann Publishers, and Peter F.
+% Patel-Schneider, of AT\&T Bell Laboratories collaborated on their
+% preparation.
+
+% These instructions can be modified and used in other conferences as long
+% as credit to the authors and supporting agencies is retained, this notice
+% is not changed, and further modification or reuse is not restricted.
+% Neither Shirley Jowell nor Peter F. Patel-Schneider can be listed as
+% contacts for providing assistance without their prior permission.
+
+% To use for other conferences, change references to files and the
+% conference appropriate and use other authors, contacts, publishers, and
+% organizations.
+% Also change the deadline and address for returning papers and the length and
+% page charge instructions.
+% Put where the files are available in the appropriate places.
+
+\title{Safety Multiclass Incremental Transfer Learning}
+\author{Shuang Ao \\ 
+Western University, Canada \\
+sao@uwo.ca}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+In transfer learning, Hypothesis Transfer Learning is proposed where we can only access to the models of the source domain rather than the data. In practice, in order to accept new category for HTL as the target task, we have to collect the data by ourselves. Without accessing the original data of the source domain, we have to evaluate the models for the models of original category as well.
+In order to solve this problem, we propose our method, called Safety Multiclass Incremental Transfer Learning (SMITLe). SMITLe can distinguish the utility of the source models effectively. We show that the transfer parameters learned from SMITLe can avoid negative transfer and SMITLe converges at a logarithmic rate. We design 3 sets of experiment that would happen in real learning scenario. Experimental results show that SMITLe can consistently achieve higher accuracy compared to previous methods.
+\end{abstract}
+\section{Introduction}
+\input{gama_intro.tex}
+
+%\section{Related Work}\label{sec:work}
+%\input{gama_works.tex}
+
+\section{Biased Regularization}\label{sec:prob}
+\input{statement.tex}
+
+\section{SMITLe}\label{sec:smitle}
+\input{smitle.tex}
+
+\section{Experiment}\label{sec:exp}
+\input{gama_exp.tex}
+
+\section{Conclusion}
+\input{gama_con.tex}
+
+\appendix
+\input{appd}
+
+\bibliographystyle{named}
+\bibliography{research}
+
+\end{document}
+

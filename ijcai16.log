@@ -1,0 +1,565 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.17)  15 JAN 2016 11:16
+entering extended mode
+**ijcai16.tex
+(D:\LaTex_Files\ijcai\ijcai16.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+IJCAI-16 Instructions for Authors
+("D:\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("D:\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (D:\LaTex_Files\ijcai\ijcai16.sty
+Conference Style, version of 6 September 1995 (revised Nov 2010)
+\titlebox=\skip43
+Named Citation Style, version of 30 November 1994
+) ("D:\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("D:\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("D:\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("D:\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("D:\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("D:\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen105
+\lightrulewidth=\dimen106
+\cmidrulewidth=\dimen107
+\belowrulesep=\dimen108
+\belowbottomsep=\dimen109
+\aboverulesep=\dimen110
+\abovetopsep=\dimen111
+\cmidrulesep=\dimen112
+\cmidrulekern=\dimen113
+\defaultaddspace=\dimen114
+\@cmidla=\count88
+\@cmidlb=\count89
+\@aboverulesep=\dimen115
+\@belowrulesep=\dimen116
+\@thisruleclass=\count90
+\@lastruleclass=\count91
+\@thisrulewidth=\dimen117
+)
+("D:\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("D:\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("D:\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+)
+\c@ContinuedFloat=\count92
+)
+\c@KVtest=\count93
+\sf@farskip=\skip44
+\sf@captopadj=\dimen125
+\sf@capskip=\skip45
+\sf@nearskip=\skip46
+\c@subfigure=\count94
+\c@subfigure@save=\count95
+\c@lofdepth=\count96
+\c@subtable=\count97
+\c@subtable@save=\count98
+\c@lotdepth=\count99
+\sf@top=\skip47
+\sf@bottom=\skip48
+)
+("D:\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count100
+)
+("D:\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen126
+\extrarowheight=\dimen127
+\NC@list=\toks15
+\extratabsurround=\skip49
+\backup@length=\skip50
+)
+("D:\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("D:\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+("D:\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks18
+\c@algorithm=\count102
+)
+("D:\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+("D:\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("D:\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen128
+))
+("D:\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen129
+)
+("D:\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count103
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count104
+\leftroot@=\count105
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count106
+\DOTSCASE@=\count107
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen130
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
+\dotsspace@=\muskip10
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
+\tag@help=\toks20
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
+\andhelp@=\toks21
+\eqnshift@=\dimen131
+\alignsep@=\dimen132
+\tagshift@=\dimen133
+\tagwidth@=\dimen134
+\totwidth@=\dimen135
+\lineht@=\dimen136
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("D:\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks29
+)
+("D:\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count115
+\c@ALC@line=\count116
+\c@ALC@rem=\count117
+\c@ALC@depth=\count118
+\ALC@tlm=\skip57
+\algorithmicindent=\skip58
+)
+("D:\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("D:\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("D:\MiKTeX 2.9\tex\latex\soul\soul.sty"
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks30
+\SOUL@lasttoken=\toks31
+\SOUL@cmds=\toks32
+\SOUL@buffer=\toks33
+\SOUL@token=\toks34
+\SOUL@spaceskip=\skip59
+\SOUL@ttwidth=\dimen137
+\SOUL@uldp=\dimen138
+\SOUL@ulht=\dimen139
+)
+("D:\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("D:\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("D:\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("D:\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("D:\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+\c@theorem=\count119
+\c@corollary=\count120
+\c@lemma=\count121
+
+(D:\LaTex_Files\ijcai\ijcai16.aux
+
+LaTeX Warning: Label `alg:1' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 66.
+ ("D:\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("D:\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count122
+\scratchdimen=\dimen140
+\scratchbox=\box30
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen141
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks36
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+ (D:\LaTex_Files\ijcai\gama_intro.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--7
+\OT1/ptm/m/n/10 Transferring the knowl-edge be-tween dif-fer-ent im-age
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 8--12
+\OT1/ptm/m/n/10 source and tar-get do-main are dif-fer-ent, trans-fer-ring the
+ []
+
+<fig/domain.jpg, id=1, 382.5492pt x 192.84045pt>
+File: fig/domain.jpg Graphic file (type jpg)
+ <use fig/domain.jpg>
+Package pdftex.def Info: fig/domain.jpg used on input line 20.
+(pdftex.def)             Requested size: 153.01695pt x 77.13481pt.
+
+Underfull \vbox (badness 1400) has occurred while \output is active []
+
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+])
+(D:\LaTex_Files\ijcai\statement.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+ (D:\LaTex_Files\ijcai\gama_explain.tex
+<fig/combine.png, id=11, 602.25pt x 360.59718pt>
+File: fig/combine.png Graphic file (type png)
+ <use fig/combine.png>
+Package pdftex.def Info: fig/combine.png used on input line 8.
+(pdftex.def)             Requested size: 180.67639pt x 108.17998pt.
+)
+[2 <D:/LaTex_Files/ijcai/fig/domain.jpg> <D:/LaTex_Files/ijcai/fig/combine.png>
+]) (D:\LaTex_Files\ijcai\smitle.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+
+Overfull \hbox (5.01826pt too wide) detected at line 19
+\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 ) = [
+] []
+ []
+
+[3] (D:\LaTex_Files\ijcai\agl1.tex)) (D:\LaTex_Files\ijcai\gama_exp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+[][]\OT1/ptm/m/n/9 The fea-tures of AwA dataset is avail-able from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+[][]\OT1/ptm/m/n/9 Images for Cal-tech is avail-able from
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 16--17
+[]\OT1/ptm/m/n/10 We se-lect the 3 HTL meth-ods, MKTL [] Jie \OT1/ptm/m/it/10 e
+t al.\OT1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 25--27
+\OT1/ptm/m/n/10 The penalty pa-ram-e-ter $\OML/cmm/m/it/10 C$ \OT1/ptm/m/n/10 i
+s tuned via cross-validation
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 25--27
+\OT1/ptm/m/n/10 for all the al-go-rithms. Two trans-fer reg-u-lar-iza-tion pa-
+ []
+
+[4]
+Package epstopdf Info: Source file: <fig/A2A_gama.eps>
+(epstopdf)                    date: 2015-11-05 15:43:44
+(epstopdf)                    size: 14961 bytes
+(epstopdf)             Output file: <fig/A2A_gama-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-05 15:43:49
+(epstopdf)                    size: 5126 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/A2A_gama-eps-converted-
+to.pdf fig/A2A_gama.eps>
+(epstopdf)             \includegraphics on input line 37.
+Package epstopdf Info: Output file is already uptodate.
+ <fig/A2A_gama-eps-converted-to.pdf, id=33, 676.5275pt x 376.40625pt>
+File: fig/A2A_gama-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/A2A_gama-eps-converted-to.pdf>
+Package pdftex.def Info: fig/A2A_gama-eps-converted-to.pdf used on input line 3
+7.
+(pdftex.def)             Requested size: 202.95981pt x 112.92273pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 7221) has occurred while \output is active []
+
+ [5 <D:/LaTex_Files/ijcai/fig/A2A_gama-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig/A2C_gama.eps>
+(epstopdf)                    date: 2015-11-05 15:45:30
+(epstopdf)                    size: 14842 bytes
+(epstopdf)             Output file: <fig/A2C_gama-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-05 15:45:34
+(epstopdf)                    size: 5124 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/A2C_gama-eps-converted-
+to.pdf fig/A2C_gama.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/A2C_gama-eps-converted-to.pdf, id=43, 676.5275pt x 376.40625pt>
+File: fig/A2C_gama-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/A2C_gama-eps-converted-to.pdf>
+Package pdftex.def Info: fig/A2C_gama-eps-converted-to.pdf used on input line 9
+9.
+(pdftex.def)             Requested size: 202.95981pt x 112.92273pt.
+
+Overfull \hbox (3.54857pt too wide) in paragraph at lines 108--121
+ [][][] 
+ []
+
+) (D:\LaTex_Files\ijcai\gama_con.tex) (D:\LaTex_Files\ijcai\appd.tex
+(D:\LaTex_Files\ijcai\theorem2.tex
+Underfull \hbox (badness 2762) in paragraph at lines 5--6
+\OT1/ptm/m/n/10 Let $\OML/cmm/m/it/10 []; :::; []$ \OT1/ptm/m/n/10 be a se-qu
+ence cor-re-spond-ing to $\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 =$
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 8--10
+\OT1/ptm/m/n/10 Let $\OT1/cmr/m/n/10 []$ \OT1/ptm/m/n/10 be the sub-gradient f
+or $\OML/cmm/m/it/10 J\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )$ \
+OT1/ptm/m/n/10 and $\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 =$
+ []
+
+) (D:\LaTex_Files\ijcai\theorem.tex [6 <D:/LaTex_Files/ijcai/fig/A2C_gama-eps-c
+onverted-to.pdf>]
+Overfull \hbox (14.04883pt too wide) in alignment at lines 43--46
+ [][][] []
+ []
+
+)) (D:\LaTex_Files\ijcai\ijcai16.bbl
+Underfull \hbox (badness 1270) in paragraph at lines 15--20
+[]\OT1/ptm/m/n/10 Gavin C Caw-ley.  Leave-one-out cross-
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 23--27
+[]\OT1/ptm/m/n/10 Koby Cram-mer and Yoram
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 29--33
+[]\OT1/ptm/m/n/10 Peter Gehler and Se-bas-tian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--53
+[]\OT1/ptm/m/n/10 Ilja Kuzborskij and
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 49--53
+\OT1/ptm/m/n/10 learn-ing.  In \OT1/ptm/m/it/10 Pro-ceed-ings of the 30th In-te
+r-na-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+[]\OT1/ptm/m/n/10 Ilja Kuzborskij, Francesco
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
+[]\OT1/ptm/m/n/10 Tatiana Tom-masi, Francesco
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 90--95
+\OT1/ptm/m/n/10 Orabona, and Bar-bara Ca-puto.  Learn-ing cat-e-gories
+ []
+
+[7]) [8
+
+] (D:\LaTex_Files\ijcai\ijcai16.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4377 strings out of 493921
+ 61973 string characters out of 3152883
+ 227965 words of memory out of 3000000
+ 7537 multiletter control sequences out of 15000+200000
+ 34601 words of font info for 81 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 44i,18n,42p,1010b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.
+pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi5.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cmextra/cmmib7.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MiKTeX 2.9/fonts/type1
+/urw/times/utmb8a.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTe
+X 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ijcai16.pdf (8 pages, 482649 bytes).
+PDF statistics:
+ 114 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

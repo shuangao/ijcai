@@ -1,0 +1,60 @@
+In this section, we focus on the Phrase II of HTL, to estimate the transfer parameter in our task. We introduce an algorithm, called SMITLe, that can effectively estimate unbiased transfer parameter from small training set. % In SMITLe, we first use unbiased LOO error for model evaluation. Then we propose a novel objective function for transfer parameter optimization. We use sub-gradient descent for optimization and provide some theoretically analysis of the performance for SMITLe.
+
+\subsection{Multi-class Prediction Loss with LOO}
+%\hl{In this part, we introduce our method to estimate proper $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ that can prevent negative transfer. We use closed-form LOO error to evaluate the performance of SMITLe for multi-class classification.  and optimize $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ with our novel objective function to prevent negative transfer.}
+
+From Phrase I, we can see that the amount of knowledge transfered is determined by the transfer parameter $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$. Generally, we would like to reduce the amount of transfer from the prior hypotheses when they are incorrect. Meanwhile, for those correct ones, aggressively increasing the amount of transfer can boost the performance for the target problem. Once we fix the value of $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$, our task can be directly solved.
+
+To evaluate different settings of $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$, we have to their cross-validation error iteratively. In this paper, we choose the Leave-One-Out (LOO) cross-validation error as the evaluation criterion. We choose it for the following two reasons: (1) It is proven that LOO error has low bias on small training data regime \cite{kuzborskij2013stability}. (2) Moreover, it is exhausted to really perform cross-validations and compare the results for each setting of $(\gamma,\beta)$. An important advantage of choosing LS-SVM over the other model is that we can obtain unbiased LOO error in closed form without real performing it. 
+
+The unbiased LOO estimation for sample $x_i$ can be written as \cite{cawley2006leave}:
+\begin{equation}
+{\hat Y_{i,n}} = {Y_{i,n}} - \frac{{{\alpha _{in}}}}{{\psi_{ii}^{ - 1}}}\quad {\text{for}}\quad n = 1,...,N + 1
+\end{equation}
+Here $\psi^{-1}$ is the inverse of matrix $\psi$ and  $\psi_{ii}^{-1}$ is the $ith$ diagonal element of $\psi^{-1}$. 
+
+Let us call $\xi_i$ the multi-class prediction error for example $x_i$. $\xi_i$ can be defined as \cite{crammer2002algorithmic}:
+\begin{equation}\label{eq:train_loss}
+\xi_i(\gamma,\beta) = \mathop {\max }\limits_{n \in \left\lbrace 1,...,N+1 \right\rbrace } {\left[ {1 - {\varepsilon _{n{y_i}}} + {{\hat Y}_{in}}\left( {\gamma ,\beta } \right) - {{\hat Y}_{i{y_i}}}\left( {\gamma ,\beta } \right)} \right]}
+\end{equation}
+Where $\varepsilon _{n{y_i}}=1$ if $n=y_i$ and 0 otherwise. The intuition behind this loss function is to enforce the distance between the true class and other classes to be at least 1. 
+
+Now, we already have an effective way to measure the performance of different settings of $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ for our task. In the next part, we introduce how we optimize these parameters.
+\subsection{Loss Function of SMITLe}
+In this part, we propose a novel objective function according to our multi-class prediction loss function for transfer parameter estimation. We show that we can effectively obtain the optimal $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ that is resistant to negative transfer. 
+ 
+From \eqref{eq:train_loss} we can see that, different from the binary scenario where 0 is used as the hard threshold to distinguish the two classes, our multi-class loss only depends on the gap between the decision function value of the correct label ($\hat Y_{y_i}$) and the maximum among the decision function value of the other labels ${{\hat Y}_{in}}(n \ne y_i)$. To reduce $\xi_i$ for a specific example $x_i$, we only have to increase the gap between ${{\hat Y}_{in}(n \ne y_i)}$ and ${{\hat Y}_{i{y_i}}}$. 
+
+As we mentioned before, the amount of knowledge transfered is positively correlated to the value of transfer parameter. 
+When the prior hypotheses are correct, we have $w'_{y_i}\phi ({x_i})> w'_{n}\phi ({x_i})$. If $\xi_i>0$, increasing the transfer parameters can reduce the gap between ${\hat Y_{y_i}}$ and ${{\hat Y}_{in}(n \ne y_i)}$, leading to smaller $\xi_i$. When the prior hypotheses are incorrect and $\xi_i>0$, there exists a $j(j\ne y_i)$ such that $w'_{y_i}\phi ({x_i})<w'_{j}\phi ({x_i})$. Thus, reducing the transfer parameter can eventually reduce $\xi_i$.
+
+Instead of optimize $\xi_i$ directly, we add two extra regularization terms for $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$. Then we define our objective function as:
+\begin{equation}\label{eq:loss}
+\begin{aligned}
+& \textbf{min}
+& & \frac{{{\lambda _1}}}{2}\sum\limits_{n = 1}^N {{{\left\| {{\gamma _n}} \right\|}^2}}  + \frac{{{\lambda _2}}}{2}\sum\limits_{n = 1}^N {{{\left\| {{\beta _n}} \right\|}^2}}  + \sum\limits_{i = 1}^l {{\xi _i}}   \\
+& \textbf{s.t.}
+& & 1 - {\varepsilon _{n{y_i}}} + {\hat Y_{in}}\left( {\gamma ,\beta } \right) - {\hat Y_{i{y_i}}}\left( {\gamma ,\beta } \right) \le {\xi_i};\\
+& & &\lambda_1,\lambda_2 \ge 0
+\end{aligned}
+\end{equation}
+
+Here $\lambda_1$ and $\lambda_2$ are two regularization parameters to prevent negative transfer. 
+By adding these two regularization terms, the objective function \eqref{eq:loss} turns to be strongly convex. Therefore, its strongly convex property guarantees that SMITLe can converge at the rate of $O(\frac{\log(t)}{t})$ (see proof in Appendix \ref{appd:convg}).
+
+From the objective function above we can see that, for certain $\lambda_1$ and $\lambda_2$, when the prior hypotheses are incorrect and harmful, decreasing $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ leads to smaller loss from both regularization and multi-class prediction error for target task. Moreover, we also prove that with optimal $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ from this objective function, SMITLe can actually avoid negative transfer (see Appendix \ref{appd:proof}). On the other hand, if the prior hypotheses are incorrect, even though, increasing $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ leads to larger regularization loss, it also leads to smaller multi-class prediction error on the target problem. Therefore, the algorithm compromises between them.
+ 
+\subsection{Optimizing $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$}
+By adding a dual set of variables in objective function \eqref{eq:loss}, one for each constraint in, we get the Lagrangian of the optimization problem:
+\begin{equation}\label{eq:dual}
+\begin{aligned}
+ &L\left( {\gamma ,\beta ,\xi ,\eta } \right) =
+ \frac{{{\lambda _1}}}{2}\sum\limits_{n = 1}^N {{{\left\| {{\gamma _n}} \right\|}^2}}  + \frac{{{\lambda _2}}}{2}\sum\limits_{n = 1}^N {{{\left\| {{\beta _n}} \right\|}^2}}  + \sum\limits_{i = 1}^l {{\xi _i}} \\
+   &+ \sum\limits_{i,n} {{\eta _{i,n}}\left[ {1 - {\varepsilon _{n{y_i}}} + {{\hat Y}_{in}}\left( {\gamma ,\beta } \right) - {{\hat Y}_{i{y_i}}}\left( {\gamma ,\beta } \right) - {\xi _i}} \right]}  \\
+ &\textbf{s.t.} \quad  \forall i,n \quad {} {\eta _{i,n}} \ge 0
+\end{aligned}
+\end{equation}
+
+To obtain the optimal values for the problem above, we introduce our method using sub-gradient descent \cite{BoydCO} and summarize it in Algorithm. \ref{alg:1}. 
+\input{agl1.tex}
+

@@ -1,0 +1,103 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Aytar and Zisserman}{2011}]{aytar2011tabula}
+Yusuf Aytar and Andrew Zisserman.
+\newblock Tabula rasa: Model transfer for object category detection.
+\newblock In {\em Computer Vision (ICCV), 2011 IEEE International Conference
+  on}, pages 2252--2259. IEEE, 2011.
+
+\bibitem[\protect\citeauthoryear{Boyd and Vandenberghe}{2004}]{BoydCO}
+Stephen Boyd and Lieven Vandenberghe.
+\newblock {\em Convex Optimization}.
+\newblock Cambridge University Press, New York, NY, USA, 2004.
+
+\bibitem[\protect\citeauthoryear{Cawley}{2006}]{cawley2006leave}
+Gavin~C Cawley.
+\newblock Leave-one-out cross-validation based model selection criteria for
+  weighted ls-svms.
+\newblock In {\em Neural Networks, 2006. IJCNN'06. International Joint
+  Conference on}, pages 1661--1668. IEEE, 2006.
+
+\bibitem[\protect\citeauthoryear{Crammer and
+  Singer}{2002}]{crammer2002algorithmic}
+Koby Crammer and Yoram Singer.
+\newblock On the algorithmic implementation of multiclass kernel-based vector
+  machines.
+\newblock {\em The Journal of Machine Learning Research}, 2:265--292, 2002.
+
+\bibitem[\protect\citeauthoryear{Gehler and Nowozin}{2009}]{gehler2009feature}
+Peter Gehler and Sebastian Nowozin.
+\newblock On feature combination for multiclass object classification.
+\newblock In {\em Computer Vision, 2009 IEEE 12th International Conference on},
+  pages 221--228. IEEE, 2009.
+
+\bibitem[\protect\citeauthoryear{Griffin \bgroup \em et al.\egroup
+  }{2007}]{griffin2007caltech}
+Gregory Griffin, Alex Holub, and Pietro Perona.
+\newblock Caltech-256 object category dataset.
+\newblock 2007.
+
+\bibitem[\protect\citeauthoryear{Jie \bgroup \em et al.\egroup
+  }{2011}]{jie2011multiclass}
+Luo Jie, Tatiana Tommasi, and Barbara Caputo.
+\newblock Multiclass transfer learning from unconstrained priors.
+\newblock In {\em Computer Vision (ICCV), 2011 IEEE International Conference
+  on}, pages 1863--1870. IEEE, 2011.
+
+\bibitem[\protect\citeauthoryear{Kuzborskij and
+  Orabona}{2013}]{kuzborskij2013stability}
+Ilja Kuzborskij and Francesco Orabona.
+\newblock Stability and hypothesis transfer learning.
+\newblock In {\em Proceedings of the 30th International Conference on Machine
+  Learning}, pages 942--950, 2013.
+
+\bibitem[\protect\citeauthoryear{Kuzborskij \bgroup \em et al.\egroup
+  }{2013}]{kuzborskij2013n}
+Ilja Kuzborskij, Francesco Orabona, and Barbara Caputo.
+\newblock From n to n+ 1: Multiclass transfer incremental learning.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2013 IEEE
+  Conference on}, pages 3358--3365. IEEE, 2013.
+
+\bibitem[\protect\citeauthoryear{Lampert \bgroup \em et al.\egroup
+  }{2009}]{lampert2009learning}
+Christoph~H Lampert, Hannes Nickisch, and Stefan Harmeling.
+\newblock Learning to detect unseen object classes by between-class attribute
+  transfer.
+\newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
+  IEEE Conference on}, pages 951--958. IEEE, 2009.
+
+\bibitem[\protect\citeauthoryear{Lu \bgroup \em et al.\egroup
+  }{2015}]{Lu201514}
+Jie Lu, Vahid Behbood, Peng Hao, Hua Zuo, Shan Xue, and Guangquan Zhang.
+\newblock Transfer learning using computational intelligence: A survey.
+\newblock {\em Knowledge-Based Systems}, 80:14 -- 23, 2015.
+\newblock 25th anniversary of Knowledge-Based Systems.
+
+\bibitem[\protect\citeauthoryear{Shalev-Shwartz \bgroup \em et al.\egroup
+  }{2011}]{shalev2011pegasos}
+Shai Shalev-Shwartz, Yoram Singer, Nathan Srebro, and Andrew Cotter.
+\newblock Pegasos: Primal estimated sub-gradient solver for svm.
+\newblock {\em Mathematical programming}, 127(1):3--30, 2011.
+
+\bibitem[\protect\citeauthoryear{Thrun}{1996}]{Thrun96islearning}
+Sebastian Thrun.
+\newblock Is learning the n-th thing any easier than learning the first?
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  640--646. The MIT Press, 1996.
+
+\bibitem[\protect\citeauthoryear{Tommasi \bgroup \em et al.\egroup
+  }{2014}]{tommasi2014learning}
+Tatiana Tommasi, Francesco Orabona, and Barbara Caputo.
+\newblock Learning categories from few examples with multi model knowledge
+  transfer.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 36(5):928--941, 2014.
+
+\bibitem[\protect\citeauthoryear{Yang \bgroup \em et al.\egroup
+  }{2007}]{yang2007cross}
+Jun Yang, Rong Yan, and Alexander~G Hauptmann.
+\newblock Cross-domain video concept detection using adaptive svms.
+\newblock In {\em Proceedings of the 15th international conference on
+  Multimedia}, pages 188--197. ACM, 2007.
+
+\end{thebibliography}

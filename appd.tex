@@ -1,0 +1,12 @@
+\section{Convergence Analysis}\label{appd:convg}
+%In this part, we show that SMITLe can converge to its optimal solution at the speed of $O(\frac{\log(t)}{t})$ for objective function \eqref{eq:loss}.
+
+%Because $\xi_i(\gamma,\beta)$ is a convex loss function, the primal problem \eqref{eq:loss} becomes the strongly convex problem by adding the L2 regularization terms. Optimizing the strongly convex problem can lead to the following error bound:
+\input{theorem2.tex}
+
+\section{Proof of avoiding negative transfer}\label{appd:proof}
+
+\input{theorem.tex}
+%When setting $\gamma=\beta = \mathbf{0}$, we don't utilize any knowledge from previous task (see Eq. \eqref{eq:opt}).
+%This suggests that the SMITLe can avoid negative transfer. 
+%According to statistic learning theory, we can conclude that, in any case, the superior bound of the risk for SMITLe is the risk of no transfer method, which proves SMITLe can avoid negative transfer.
