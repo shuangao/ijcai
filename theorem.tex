@@ -1,6 +1,6 @@
 %From the analysis in Appendix \ref{appd:convg} we can see that, SMITLe can alway converge to its optimal solution with sufficient iterations. We can prove that, with the optimal transfer parameters $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$, SMITLe can avoid negative transfer.
 
-Assume that $\bar \xi_i$ is the multi-class loss of example $x_i$ without utilizing any prior knowledge, i.e. $\gamma=\beta = \mathbf{0}$. Let $\gamma^*, \beta^*$ be the optimal solution for Eq. \eqref{eq:dual} and $\xi_i^*$ be the multi-class loss with respective to example $x_i$. Then for every example $x_i \in \mathcal{X}$, we have:\[\sum\limits_i {{\xi _i}}  \le \sum\limits_i {{{\bar \xi }_i}} \]
+Assume that $\bar \xi_i$ is the multi-class loss of example $x_i$ without utilizing any prior knowledge, i.e. $\gamma=\beta = \mathbf{0}$. Let $\gamma^*, \beta^*$ be the optimal solution for Eq. \eqref{eq:dual} and $\xi_i^*$ be the multi-class loss with respective to example $x_i$. Then for every example $x_i \in \mathcal{X}$, we have:\[\sum\limits_i {{\xi^* _i}}  \le \sum\limits_i {{{\bar \xi }_i}} \]
 
 \begin{proof}
 %For simplification, let $\delta_i=1$ if $i=N+1$ and 0 otherwise, and  ${\theta _{ij}} = {\alpha ''_{ij}}\left( {1 - {\delta _j}} \right)/\psi_{ii}^{ - 1}$. Eq. \eqref{eq:train_loss} can be written as:
@@ -17,9 +17,9 @@ When $\mathbf{\gamma}=\mathbf{\beta} = \mathbf{0}$, from Eq. \eqref{eq:train_los
 %To obtain the optimal value of $\gamma$ and $\beta$, we have to seek the saddle point of the Lagrangian problem in \eqref{eq:dual} by finding the minimum for the prime variables $\left\{ \gamma, \beta, \xi \right\}$ and the maximum for the dual variables $\eta $.
 For simplification, let $\delta_i=1$ if $i=N+1$ and 0 otherwise, and  ${\theta _{ij}} = {\alpha ''_{ij}}\left( {1 - {\delta _j}} \right)/\psi_{ii}^{ - 1}$.
 To find the minimum of the primal problem, we require:
-\begin{equation*}
-\frac{{\partial L}}{{\partial {\xi _i}}} = 1 - \sum\limits_n {{\eta _{in}}}  = 0 \to \sum\limits_n {{\eta _{in}}}  = 1
-\end{equation*}   
+\begin{equation}
+\frac{{\partial L}}{{\partial {\xi _i}}} = 1 - \sum\limits_n {{\eta _{in}}}  = 0 \Rightarrow \sum\limits_n {{\eta _{in}}}  = 1
+\end{equation}   
 %Similarly, for $\gamma$ and $\beta$, we require:
 \begin{eqnarray}\label{eq:opt_gama}
 \frac{{\partial L}}{{\partial {\gamma _n}}} = 0  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.17)  15 JAN 2016 11:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.17)  25 JAN 2016 16:36
 entering extended mode
 **ijcai16.tex
 (D:\LaTex_Files\ijcai\ijcai16.tex
@@ -346,24 +346,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
- (D:\LaTex_Files\ijcai\gama_intro.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--7
-\OT1/ptm/m/n/10 Transferring the knowl-edge be-tween dif-fer-ent im-age
- []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 8--12
-\OT1/ptm/m/n/10 source and tar-get do-main are dif-fer-ent, trans-fer-ring the
- []
+LaTeX Warning: No \author given.
 
+(D:\LaTex_Files\ijcai\gama_intro.tex
 <fig/domain.jpg, id=1, 382.5492pt x 192.84045pt>
 File: fig/domain.jpg Graphic file (type jpg)
  <use fig/domain.jpg>
-Package pdftex.def Info: fig/domain.jpg used on input line 20.
+Package pdftex.def Info: fig/domain.jpg used on input line 25.
 (pdftex.def)             Requested size: 153.01695pt x 77.13481pt.
-
-Underfull \vbox (badness 1400) has occurred while \output is active []
-
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
@@ -373,11 +365,11 @@ Underfull \vbox (badness 1400) has occurred while \output is active []
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
  (D:\LaTex_Files\ijcai\gama_explain.tex
-<fig/combine.png, id=11, 602.25pt x 360.59718pt>
+<fig/combine.png, id=13, 602.25pt x 360.59718pt>
 File: fig/combine.png Graphic file (type png)
  <use fig/combine.png>
 Package pdftex.def Info: fig/combine.png used on input line 8.
-(pdftex.def)             Requested size: 180.67639pt x 108.17998pt.
+(pdftex.def)             Requested size: 150.56212pt x 90.14906pt.
 )
 [2 <D:/LaTex_Files/ijcai/fig/domain.jpg> <D:/LaTex_Files/ijcai/fig/combine.png>
 ]) (D:\LaTex_Files\ijcai\smitle.tex
@@ -389,7 +381,11 @@ Overfull \hbox (5.01826pt too wide) detected at line 19
 ] []
  []
 
-[3] (D:\LaTex_Files\ijcai\agl1.tex)) (D:\LaTex_Files\ijcai\gama_exp.tex
+
+Underfull \vbox (badness 1917) has occurred while \output is active []
+
+ [3]
+(D:\LaTex_Files\ijcai\agl1.tex)) (D:\LaTex_Files\ijcai\gama_exp.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 [][]\OT1/ptm/m/n/9 The fea-tures of AwA dataset is avail-able from
  []
@@ -400,19 +396,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 16--17
+Underfull \hbox (badness 2343) in paragraph at lines 13--14
 []\OT1/ptm/m/n/10 We se-lect the 3 HTL meth-ods, MKTL [] Jie \OT1/ptm/m/it/10 e
 t al.\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 25--27
+Underfull \hbox (badness 2065) in paragraph at lines 22--24
 \OT1/ptm/m/n/10 The penalty pa-ram-e-ter $\OML/cmm/m/it/10 C$ \OT1/ptm/m/n/10 i
 s tuned via cross-validation
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 25--27
+Underfull \hbox (badness 1152) in paragraph at lines 22--24
 \OT1/ptm/m/n/10 for all the al-go-rithms. Two trans-fer reg-u-lar-iza-tion pa-
  []
 
@@ -425,15 +421,15 @@ Package epstopdf Info: Source file: <fig/A2A_gama.eps>
 (epstopdf)                    size: 5126 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/A2A_gama-eps-converted-
 to.pdf fig/A2A_gama.eps>
-(epstopdf)             \includegraphics on input line 37.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
  <fig/A2A_gama-eps-converted-to.pdf, id=33, 676.5275pt x 376.40625pt>
 File: fig/A2A_gama-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/A2A_gama-eps-converted-to.pdf>
 Package pdftex.def Info: fig/A2A_gama-eps-converted-to.pdf used on input line 3
-7.
-(pdftex.def)             Requested size: 202.95981pt x 112.92273pt.
+5.
+(pdftex.def)             Requested size: 169.13145pt x 94.10132pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -441,10 +437,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 7221) has occurred while \output is active []
-
- [5 <D:/LaTex_Files/ijcai/fig/A2A_gama-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/A2C_gama.eps>
 (epstopdf)                    date: 2015-11-05 15:45:30
 (epstopdf)                    size: 14842 bytes
@@ -453,23 +445,26 @@ Package epstopdf Info: Source file: <fig/A2C_gama.eps>
 (epstopdf)                    size: 5124 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/A2C_gama-eps-converted-
 to.pdf fig/A2C_gama.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
-
-<fig/A2C_gama-eps-converted-to.pdf, id=43, 676.5275pt x 376.40625pt>
+<fig/A2C_gama-eps-converted-to.pdf, id=34, 676.5275pt x 376.40625pt>
 File: fig/A2C_gama-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fig/A2C_gama-eps-converted-to.pdf>
 Package pdftex.def Info: fig/A2C_gama-eps-converted-to.pdf used on input line 9
-9.
-(pdftex.def)             Requested size: 202.95981pt x 112.92273pt.
+6.
+(pdftex.def)             Requested size: 169.13145pt x 94.10132pt.
 
-Overfull \hbox (3.54857pt too wide) in paragraph at lines 108--121
+Overfull \hbox (15.43837pt too wide) in paragraph at lines 105--118
  [][][] 
  []
 
-) (D:\LaTex_Files\ijcai\gama_con.tex) (D:\LaTex_Files\ijcai\appd.tex
-(D:\LaTex_Files\ijcai\theorem2.tex
+[5 <D:/LaTex_Files/ijcai/fig/A2A_gama-eps-converted-to.pdf>])
+(D:\LaTex_Files\ijcai\gama_con.tex)
+Underfull \vbox (badness 2020) has occurred while \output is active []
+
+
+(D:\LaTex_Files\ijcai\appd.tex (D:\LaTex_Files\ijcai\theorem2.tex
 Underfull \hbox (badness 2762) in paragraph at lines 5--6
 \OT1/ptm/m/n/10 Let $\OML/cmm/m/it/10 []; :::; []$ \OT1/ptm/m/n/10 be a se-qu
 ence cor-re-spond-ing to $\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 =$
@@ -529,21 +524,19 @@ Underfull \hbox (badness 1527) in paragraph at lines 90--95
 \OT1/ptm/m/n/10 Orabona, and Bar-bara Ca-puto.  Learn-ing cat-e-gories
  []
 
-[7]) [8
-
-] (D:\LaTex_Files\ijcai\ijcai16.aux)
+) [7] (D:\LaTex_Files\ijcai\ijcai16.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  4377 strings out of 493921
- 61973 string characters out of 3152883
- 227965 words of memory out of 3000000
- 7537 multiletter control sequences out of 15000+200000
- 34601 words of font info for 81 fonts, out of 3000000 for 9000
+ 61976 string characters out of 3152883
+ 229942 words of memory out of 3000000
+ 7538 multiletter control sequences out of 15000+200000
+ 33523 words of font info for 80 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,18n,42p,1010b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,42p,855b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.
 pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX 2.9/fon
@@ -557,9 +550,9 @@ fonts/cm/cmsy10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTe
 X 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ijcai16.pdf (8 pages, 482649 bytes).
+Output written on ijcai16.pdf (7 pages, 483863 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,16 +1,11 @@
 \relax 
 \citation{tommasi2014learning}
 \citation{kuzborskij2013n}
-\citation{jie2011multiclass}
 \citation{kuzborskij2013stability}
-\citation{kuzborskij2013n}
-\citation{Lu201514}
-\citation{tommasi2014learning}
-\citation{kuzborskij2013n}
-\citation{yang2007cross}
-\citation{aytar2011tabula}
 \citation{kuzborskij2013stability}
 \citation{tommasi2014learning}
+\citation{kuzborskij2013n}
+\citation{pan2010survey}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
 \citation{tommasi2014learning}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Negative transfer happens when we transfer prior hypothesis $f'$ to target one. Points with different color represent different categories. The data distribution would change even for identical categories in different task. The new added category (red points) can also greatly affect the data distribution in target task. \relax }}{2}}
@@ -19,11 +14,12 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2}Biased Regularization}{2}}
 \newlabel{sec:prob}{{2}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The final decision function value of a binary SVM can be get by combining the prior and empirical knowledge.\relax }}{2}}
+\newlabel{fig:combine}{{2}{2}}
 \newlabel{eq:multi}{{1}{2}}
-\newlabel{eq:asvm}{{2}{2}}
 \citation{kuzborskij2013stability}
 \citation{cawley2006leave}
 \citation{crammer2002algorithmic}
+\newlabel{eq:asvm}{{2}{3}}
 \newlabel{eq:opt}{{3}{3}}
 \newlabel{eq:solu}{{4}{3}}
 \newlabel{eq:linear}{{5}{3}}
@@ -33,7 +29,6 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Multi-class Prediction Loss with LOO}{3}}
 \newlabel{eq:train_loss}{{9}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Loss Function of SMITLe}{3}}
-\newlabel{eq:loss}{{10}{3}}
 \citation{BoydCO}
 \citation{lampert2009learning}
 \citation{griffin2007caltech}
@@ -43,29 +38,30 @@
 \citation{kuzborskij2013n}
 \citation{tommasi2014learning}
 \citation{gehler2009feature}
+\newlabel{eq:loss}{{10}{4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Optimizing $\boldsymbol  {\gamma }$ and $\boldsymbol  {\beta }$}{4}}
 \newlabel{eq:dual}{{11}{4}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Experiment}{4}}
 \newlabel{sec:exp}{{4}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dataset}{4}}
 \newlabel{alg:1}{{\caption@xref {alg:1}{ on input line 1}}{4}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces SMITLe optimization\relax }}{4}}
 \newlabel{alg:1}{{1}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dataset}{4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Baselines and algorithmic setup}{4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Experiment results for 10 classes, AwA. Horse is used as the new category. We can see that SMITLe tends to more aggressively exploit the related prior knowledge.\relax }}{5}}
 \newlabel{fig:awa}{{3}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Positive transfer: transferring from related sources}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Positive transfer: transferring from correct hypotheses}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Negative transfer: transferring from incorrect hypotheses}{5}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Average accuracy in percentage across all categories from Caltech to Caltech with different size of training set in target problem. 30 examples are randomly chosen from each class to train the source classifier and 30 examples from each class are chosen for test. \relax }}{5}}
 \newlabel{tab:C2C}{{1}{5}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Average accuracy in percentage across all categories from AwA to AwA with different size of training set in target problem. 50 examples are randomly chosen from each class to train the source classifier and 200 examples from each class are chosen for test.\relax }}{5}}
 \newlabel{tab:A2A}{{2}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Negative transfer: transferring from unrelated sources}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Transferring from mixed hypotheses}{5}}
 \citation{shalev2011pegasos}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Experiment results for 10 classes, AwA. Horse is used as the new category. SMITLe can ignore unrelated prior knowledge.\relax }}{6}}
 \newlabel{fig:a2c}{{4}{6}}
 \@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Average accuracy in percentage across all categories from AwA to Caltech. Examples in AwA are used to train prior models. Different number of training size is randomly selected from Caltech dataset.\relax }}{6}}
 \newlabel{tab:A2C}{{3}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Transferring from mixed sources}{6}}
 \@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Average accuracy in percentage across all categories from AwA to AwA\&Caltech with different size of training set in target problem. Data of 3 classes in AwA is replaced by the data from Caltech in target problem.\relax }}{6}}
 \newlabel{tab:3c}{{4}{6}}
 \@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Average accuracy in percentage across all categories from AwA to AwA\&Caltech with different size of training set in target problem. Data of 4 classes in AwA is replaced by the data from Caltech in target problem.\relax }}{6}}
@@ -73,6 +69,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{6}}
 \@writefile{toc}{\contentsline {section}{\numberline {A}Convergence Analysis}{6}}
 \newlabel{appd:convg}{{A}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Proof of avoiding negative transfer}{6}}
+\newlabel{appd:proof}{{B}{6}}
 \bibstyle{named}
 \bibdata{research}
 \bibcite{aytar2011tabula}{\citeauthoryear {Aytar and Zisserman}{2011}}
@@ -86,12 +84,10 @@
 \bibcite{kuzborskij2013n}{\citeauthoryear {Kuzborskij \bgroup \em  et al.\egroup }{2013}}
 \bibcite{lampert2009learning}{\citeauthoryear {Lampert \bgroup \em  et al.\egroup }{2009}}
 \bibcite{Lu201514}{\citeauthoryear {Lu \bgroup \em  et al.\egroup }{2015}}
+\bibcite{pan2010survey}{\citeauthoryear {Pan and Yang}{2010}}
 \bibcite{shalev2011pegasos}{\citeauthoryear {Shalev-Shwartz \bgroup \em  et al.\egroup }{2011}}
-\bibcite{Thrun96islearning}{\citeauthoryear {Thrun}{1996}}
 \bibcite{tommasi2014learning}{\citeauthoryear {Tommasi \bgroup \em  et al.\egroup }{2014}}
-\@writefile{toc}{\contentsline {section}{\numberline {B}Proof of avoiding negative transfer}{7}}
-\newlabel{appd:proof}{{B}{7}}
-\newlabel{eq:opt_gama}{{13}{7}}
-\newlabel{eq:opt_beta}{{14}{7}}
-\newlabel{eq:link1}{{15}{7}}
 \bibcite{yang2007cross}{\citeauthoryear {Yang \bgroup \em  et al.\egroup }{2007}}
+\newlabel{eq:opt_gama}{{14}{7}}
+\newlabel{eq:opt_beta}{{15}{7}}
+\newlabel{eq:link1}{{16}{7}}

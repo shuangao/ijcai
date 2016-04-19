@@ -58,18 +58,18 @@
 % page charge instructions.
 % Put where the files are available in the appropriate places.
 
-\title{Safety Multiclass Incremental Transfer Learning}
-\author{Shuang Ao \\ 
-Western University, Canada \\
-sao@uwo.ca}
+\title{SMITLe:Safety Multiclass Incremental Transfer Learning}
+%\author{Shuang Ao \\ 
+%Western University, Canada \\
+%sao@uwo.ca}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-In transfer learning, Hypothesis Transfer Learning is proposed where we can only access to the models of the source domain rather than the data. In practice, in order to accept new category for HTL as the target task, we have to collect the data by ourselves. Without accessing the original data of the source domain, we have to evaluate the models for the models of original category as well.
-In order to solve this problem, we propose our method, called Safety Multiclass Incremental Transfer Learning (SMITLe). SMITLe can distinguish the utility of the source models effectively. We show that the transfer parameters learned from SMITLe can avoid negative transfer and SMITLe converges at a logarithmic rate. We design 3 sets of experiment that would happen in real learning scenario. Experimental results show that SMITLe can consistently achieve higher accuracy compared to previous methods.
+It is always challenging for a model to adapt new categories. Transfer learning suggests that leveraging the knowledge from existing models and data can help the model to learn new categories. However, in some cases, we are not able to access the source data. To leverage the knowledge from the source models (called hypotheses), Hypothesis Transfer Learning (HTL) is proposed to learn the new category in this scenario where we can only access the models. In practical HTL, without accessing the source data, we have to evaluate the source hypotheses in the target task, for each category, to avoid degraded performance (negative transfer).
+In this paper, we propose our method, called Safety Multiclass Incremental Transfer Learning (SMITLe). SMITLe can safely utilize each source hypothesis effectively. We show that the transfer parameters learned from SMITLe can avoid negative transfer and our algorithm converges at the rate of $O(\frac{\log(t)}{t})$. We design 3 sets of experiment that would happen in a real learning scenario. Experimental results show that SMITLe can consistently achieve higher accuracy compared to previous methods.
 \end{abstract}
 \section{Introduction}
 \input{gama_intro.tex}

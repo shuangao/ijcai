@@ -17,7 +17,7 @@ We define our task in the following way: assume that, for our $(N+1)$-category t
 Here, $W'=\{w_1',w_2',...,w_n'\}$. $R({w_n,W'})$ is the regularization term to guarantee good transfer performance and avoid overfitting. $\mathbf{Y}$ is a encoded label matrix so that $Y_{in}=1$ if $y_i=n$ and $-1$ otherwise.
 
 
-Now our task can be divided into two separate part: learning the the $(N+1)_{th}$ new category and $N$ overlapped categories.
+Now our task can be divided into two separate part: learning the $(N+1)_{th}$ new category and $N$ overlapped categories.
 
 For the new added category, it is very difficult to identify the utility of the hypothesis of a single category in source task, therefore, we use multi-source transfer strategy, adopted from Multi-KT \cite{tommasi2014learning}, to leverage hypotheses from multiple sources. As a result, regularization term $R(w_{N+1},W')$ can be written as:
 \begin{equation}
